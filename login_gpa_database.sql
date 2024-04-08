@@ -6,7 +6,7 @@ show tables;
 select * from gpa_user;
 
 create table gpa_user(
-studentID varchar (7),
+studentID varchar (8),
 UN_GPA decimal(10,2),
 WG_GPA decimal(10,2)
 );
